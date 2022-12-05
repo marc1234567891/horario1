@@ -1,0 +1,65 @@
+html {
+    /*width: 160mm;*/
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1.2px 1.2px 1.3px #000000;
+    }
+    
+      table {
+        border-collapse: collapse;
+        border: 2.5px solid rgb(0, 0, 0);
+        letter-spacing: 1.1px;
+        font-size: 0.8rem;
+        margin: auto;
+      }
+      
+      td, th {
+        border: 1px solid rgb(0, 0, 0);
+        padding: 10px 20px 10px;
+      }
+      
+      th {
+        background-color: rgb(255, 255, 255);
+      }
+      
+      td {
+      text-align:left ;
+      }
+      
+      
+      caption {
+        padding: 10px;
+      }
+    
+      table.tabla_profes tr:nth-child(odd) {
+        background-color: #a3fff7;
+        color: rgb(0, 0, 0);
+        text-shadow: 0.1px 0.1px 0.1px #000000;
+      }
+      
+      table.tabla_profes tr:nth-child(even) {
+        background-color: #77ffed;
+        color: rgb(0, 0, 0);
+        text-shadow: 0.1px 0.1px 0.1px #000000;
+      }
+    
+      table.horario th:first-child {
+        width: 25%;    
+      }
+
+      table.Listado tr:nth-child(odd){
+        background-color: #a3fff7;
+        color: rgb(0, 0, 0);
+        text-shadow: 0.1px 0.1px 0.1px #000000;
+      }
+      table.Listado tr:nth-child(even) {
+        background-color: #77ffed;
+        color: rgb(0, 0, 0);
+        text-shadow: 0.1px 0.1px 0.1px #000000;
+      }
+      table.Listado th:first-child {
+        width: auto;
+        text-align: left;
+    }
+
